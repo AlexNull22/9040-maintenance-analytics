@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-19",
+  "read_only": true,
+  "data_mode": "synthetic_demo",
+  "sources": [
+    {
+      "filename": "9040_通知.csv",
+      "sha256": "d354d8ec994ccb13bf1a52e7ca46898f5e40780e529aaac7bcc347d14f8bee56",
+      "rows": 100
+    },
+    {
+      "filename": "9040_工单.csv",
+      "sha256": "ac5293880aff2b6b1915662dfbda198853aa0627a66dd7686b1367243b1c9cf5",
+      "rows": 80
+    },
+    {
+      "filename": "9040_设备.csv",
+      "sha256": "b8dbcedc15665c53092932207c5c9bb92ae1d46a53c928c9719da04e5d707a1c",
+      "rows": 20
+    },
+    {
+      "filename": "9040_计划.csv",
+      "sha256": "ac3dcb1414a1e899a4255928469198670331b2c2207b4355f1f75d92ce641e4d",
+      "rows": 20
+    },
+    {
+      "filename": "9040_测量.csv",
+      "sha256": "9ac65af7f3549fd804a548452128672d6dff48039cb63ecf45450e5ad2f77942",
+      "rows": 30
+    },
+    {
+      "filename": "9040_录入耗时.csv",
+      "sha256": "847624ef1a9767185a6e5db33a4650d6f6ae5661104046bfefadb2f2503459ab",
+      "rows": 40
+    }
+  ],
+  "selected_ideas": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "ideas": {
+    "1": {
+      "title": "Notification completeness",
+      "summary": {
+        "records": 100,
+        "average_score": "93.75",
+        "complete_records": 86,
+        "checks": [
+          "description",
+          "failure_code",
+          "cause_code",
+          "action_code"
+        ]
+      },
+      "rows": [
+        {
+          "notification_id": "N0001",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0002",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0003",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0004",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0005",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0006",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0007",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0008",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0009",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0010",
+          "score": 75,
+          "missing_fields": [
+            "failure_code"
+          ]
+        },
+        {
+          "notification_id": "N0011",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0012",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0013",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0014",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0015",
+          "score": 75,
+          "missing_fields": [
+            "cause_code"
+          ]
+        },
+        {
+          "notification_id": "N0016",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0017",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0018",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0019",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0020",
+          "score": 50,
+          "missing_fields": [
+            "failure_code",
+            "action_code"
+          ]
+        },
+        {
+          "notification_id": "N0021",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0022",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0023",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0024",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0025",
+          "score": 75,
+          "missing_fields": [
+            "description"
+          ]
+        },
+        {
+          "notification_id": "N0026",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0027",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0028",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0029",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0030",
+          "score": 50,
+          "missing_fields": [
+            "failure_code",
+            "cause_code"
+          ]
+        },
+        {
+          "notification_id": "N0031",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0032",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0033",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0034",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0035",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0036",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0037",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0038",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0039",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0040",
+          "score": 50,
+          "missing_fields": [
+            "failure_code",
+            "action_code"
+          ]
+        },
+        {
+          "notification_id": "N0041",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0042",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0043",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0044",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0045",
+          "score": 75,
+          "missing_fields": [
+            "cause_code"
+          ]
+        },
+        {
+          "notification_id": "N0046",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0047",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0048",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0049",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0050",
+          "score": 50,
+          "missing_fields": [
+            "description",
+            "failure_code"
+          ]
+        },
+        {
+          "notification_id": "N0051",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0052",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0053",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0054",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0055",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0056",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0057",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0058",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0059",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0060",
+          "score": 25,
+          "missing_fields": [
+            "failure_code",
+            "cause_code",
+            "action_code"
+          ]
+        },
+        {
+          "notification_id": "N0061",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0062",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0063",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0064",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0065",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0066",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0067",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0068",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0069",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0070",
+          "score": 75,
+          "missing_fields": [
+            "failure_code"
+          ]
+        },
+        {
+          "notification_id": "N0071",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0072",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0073",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0074",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0075",
+          "score": 50,
+          "missing_fields": [
+            "description",
+            "cause_code"
+          ]
+        },
+        {
+          "notification_id": "N0076",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0077",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0078",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0079",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0080",
+          "score": 50,
+          "missing_fields": [
+            "failure_code",
+            "action_code"
+          ]
+        },
+        {
+          "notification_id": "N0081",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0082",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0083",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0084",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0085",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0086",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0087",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0088",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0089",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0090",
+          "score": 50,
+          "missing_fields": [
+            "failure_code",
+            "cause_code"
+          ]
+        },
+        {
+          "notification_id": "N0091",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0092",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0093",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0094",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0095",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0096",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0097",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0098",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0099",
+          "score": 100,
+          "missing_fields": []
+        },
+        {
+          "notification_id": "N0100",
+          "score": 25,
+          "missing_fields": [
+            "description",
+            "failure_code",
+            "action_code"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "title": "Seven-day maintenance report",
+      "summary": {
+        "window_start": "2026-10-13",
+        "window_end": "2026-10-19",
+        "total_created": 11,
+        "status_counts": {
+          "open": 3,
+          "in_progress": 3,
+          "closed": 5
+        },
+        "overdue_open": 46,
+        "overdue_scope": "All orders created on or before as_of; due_date < as_of; status != closed. Daily rows use their created-date cohort.",
+        "labor_hours": "47.50",
+        "cost": "2390.50"
+      },
+      "rows": [
+        {
+          "date": "2026-10-13",
+          "orders_created": 2,
+          "open_overdue": 0,
+          "open": 0,
+          "in_progress": 0,
+          "closed": 2,
+          "labor_hours": "6.25",
+          "cost": "361.00"
+        },
+        {
+          "date": "2026-10-14",
+          "orders_created": 2,
+          "open_overdue": 0,
+          "open": 2,
+          "in_progress": 0,
+          "closed": 0,
+          "labor_hours": "8.75",
+          "cost": "721.00"
+        },
+        {
+          "date": "2026-10-15",
+          "orders_created": 2,
+          "open_overdue": 0,
+          "open": 0,
+          "in_progress": 2,
+          "closed": 0,
+          "labor_hours": "11.25",
+          "cost": "271.00"
+        },
+        {
+          "date": "2026-10-16",
+          "orders_created": 2,
+          "open_overdue": 0,
+          "open": 0,
+          "in_progress": 0,
+          "closed": 2,
+          "labor_hours": "6.25",
+          "cost": "631.00"
+        },
+        {
+          "date": "2026-10-17",
+          "orders_created": 1,
+          "open_overdue": 0,
+          "open": 1,
+          "in_progress": 0,
+          "closed": 0,
+          "labor_hours": "2.50",
+          "cost": "90.50"
+        },
+        {
+          "date": "2026-10-18",
+          "orders_created": 1,
+          "open_overdue": 0,
+          "open": 0,
+          "in_progress": 1,
+          "closed": 0,
+          "labor_hours": "7.50",
+          "cost": "270.50"
+        },
+        {
+          "date": "2026-10-19",
+          "orders_created": 1,
+          "open_overdue": 0,
+          "open": 0,
+          "in_progress": 0,
+          "closed": 1,
+          "labor_hours": "5.00",
+          "cost": "45.50"
+        }
+      ]
+    },
+    "3": {
+      "title": "Master data checks",
+      "summary": {
+        "issue_count": 5,
+        "by_rule": {
+          "missing_description": 1,
+          "missing_location": 1,
+          "invalid_criticality": 1,
+          "unknown_equipment": 1,
+          "next_due_mismatch": 1
+        }
+      },
+      "rows": [
+        {
+          "table": "equipment",
+          "record_id": "EQ001",
+          "equipment_id": "EQ001",
+          "rule": "missing_description",
+          "detail": "description is empty"
+        },
+        {
+          "table": "equipment",
+          "record_id": "EQ002",
+          "equipment_id": "EQ002",
+          "rule": "missing_location",
+          "detail": "location is empty"
+        },
+        {
+          "table": "equipment",
+          "record_id": "EQ003",
+          "equipment_id": "EQ003",
+          "rule": "invalid_criticality",
+          "detail": "criticality must be A, B, or C"
+        },
+        {
+          "table": "plans",
+          "record_id": "P020",
+          "equipment_id": "EQ_UNKNOWN",
+          "rule": "unknown_equipment",
+          "detail": "equipment reference does not exist"
+        },
+        {
+          "table": "plans",
+          "record_id": "P003",
+          "equipment_id": "EQ003",
+          "rule": "next_due_mismatch",
+          "detail": "Expected next_due 2026-10-18"
+        }
+      ]
+    },
+    "4": {
+      "title": "Mobile and desktop entry times",
+      "summary": {
+        "task_types": 3,
+        "comparable_task_types": 2,
+        "interpretation": "Synthetic observations only. Desktop mean minus mobile mean in minutes; no causal or real-world savings inference. Unpaired task types are not comparable."
+      },
+      "rows": [
+        {
+          "task_type": "desktop_only_task",
+          "mobile_count": 0,
+          "mobile_mean": null,
+          "mobile_median": null,
+          "desktop_count": 4,
+          "desktop_mean": "11.00",
+          "desktop_median": "11.00",
+          "comparable": false,
+          "estimated_per_entry_saving": null
+        },
+        {
+          "task_type": "notification_entry",
+          "mobile_count": 10,
+          "mobile_mean": "4.00",
+          "mobile_median": "4.00",
+          "desktop_count": 10,
+          "desktop_mean": "9.10",
+          "desktop_median": "9.00",
+          "comparable": true,
+          "estimated_per_entry_saving": "5.10"
+        },
+        {
+          "task_type": "order_entry",
+          "mobile_count": 8,
+          "mobile_mean": "5.00",
+          "mobile_median": "5.00",
+          "desktop_count": 8,
+          "desktop_mean": "10.88",
+          "desktop_median": "11.00",
+          "comparable": true,
+          "estimated_per_entry_saving": "5.88"
+        }
+      ]
+    },
+    "5": {
+      "title": "Due plans and measurement alerts",
+      "summary": {
+        "overdue": 6,
+        "due_today": 2,
+        "next_7_days": 6,
+        "measurement_alerts": 2,
+        "measurement_policy": "Latest measurement on/before as_of per active equipment; same-date ties use the last CSV row. Limit equality is normal."
+      },
+      "rows": [
+        {
+          "type": "plan",
+          "equipment_id": "EQ001",
+          "reference_id": "P001",
+          "date": "2026-10-05",
+          "status": "overdue",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ009",
+          "reference_id": "P009",
+          "date": "2026-10-05",
+          "status": "overdue",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ017",
+          "reference_id": "P017",
+          "date": "2026-10-05",
+          "status": "overdue",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ002",
+          "reference_id": "P002",
+          "date": "2026-10-12",
+          "status": "overdue",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ010",
+          "reference_id": "P010",
+          "date": "2026-10-12",
+          "status": "overdue",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ018",
+          "reference_id": "P018",
+          "date": "2026-10-12",
+          "status": "overdue",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "measurement",
+          "equipment_id": "EQ003",
+          "reference_id": "M023",
+          "date": "2026-10-19",
+          "status": "out_of_range",
+          "detail": "35.0 degC; limits 10.0 to 30.0"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ003",
+          "reference_id": "P003",
+          "date": "2026-10-19",
+          "status": "due_today",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "measurement",
+          "equipment_id": "EQ005",
+          "reference_id": "M025",
+          "date": "2026-10-19",
+          "status": "out_of_range",
+          "detail": "5.0 degC; limits 10.0 to 30.0"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ011",
+          "reference_id": "P011",
+          "date": "2026-10-19",
+          "status": "due_today",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ004",
+          "reference_id": "P004",
+          "date": "2026-10-20",
+          "status": "next_7_days",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ012",
+          "reference_id": "P012",
+          "date": "2026-10-20",
+          "status": "next_7_days",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ005",
+          "reference_id": "P005",
+          "date": "2026-10-22",
+          "status": "next_7_days",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ013",
+          "reference_id": "P013",
+          "date": "2026-10-22",
+          "status": "next_7_days",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ006",
+          "reference_id": "P006",
+          "date": "2026-10-26",
+          "status": "next_7_days",
+          "detail": "合成周期保养"
+        },
+        {
+          "type": "plan",
+          "equipment_id": "EQ014",
+          "reference_id": "P014",
+          "date": "2026-10-26",
+          "status": "next_7_days",
+          "detail": "合成周期保养"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "1": "9040_质量评分.csv",
+    "2": "9040_维护周报.csv",
+    "3": "9040_主数据问题.csv",
+    "4": "9040_录入耗时对比.csv",
+    "5": "9040_逾期预警.csv",
+    "json": "9040_分析结果.json",
+    "html": "9040_运行报告.html"
+  }
+}

@@ -1,0 +1,6 @@
+﻿table,record_id,equipment_id,rule,detail
+equipment,EQ001,EQ001,missing_description,description is empty
+equipment,EQ002,EQ002,missing_location,location is empty
+equipment,EQ003,EQ003,invalid_criticality,"criticality must be A, B, or C"
+plans,P020,EQ_UNKNOWN,unknown_equipment,equipment reference does not exist
+plans,P003,EQ003,next_due_mismatch,Expected next_due 2026-10-18

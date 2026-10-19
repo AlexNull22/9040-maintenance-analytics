@@ -1,0 +1,4 @@
+﻿task_type,mobile_count,desktop_count,mobile_mean,mobile_median,desktop_mean,desktop_median,comparable,estimated_per_entry_saving
+desktop_only_task,0,4,,,11.00,11.00,False,
+notification_entry,10,10,4.00,4.00,9.10,9.00,True,5.10
+order_entry,8,8,5.00,5.00,10.88,11.00,True,5.88

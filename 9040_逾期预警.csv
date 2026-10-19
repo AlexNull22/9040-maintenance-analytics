@@ -1,0 +1,17 @@
+﻿type,equipment_id,reference_id,date,status,detail
+plan,EQ001,P001,2026-10-05,overdue,合成周期保养
+plan,EQ009,P009,2026-10-05,overdue,合成周期保养
+plan,EQ017,P017,2026-10-05,overdue,合成周期保养
+plan,EQ002,P002,2026-10-12,overdue,合成周期保养
+plan,EQ010,P010,2026-10-12,overdue,合成周期保养
+plan,EQ018,P018,2026-10-12,overdue,合成周期保养
+measurement,EQ003,M023,2026-10-19,out_of_range,35.0 degC; limits 10.0 to 30.0
+plan,EQ003,P003,2026-10-19,due_today,合成周期保养
+measurement,EQ005,M025,2026-10-19,out_of_range,5.0 degC; limits 10.0 to 30.0
+plan,EQ011,P011,2026-10-19,due_today,合成周期保养
+plan,EQ004,P004,2026-10-20,next_7_days,合成周期保养
+plan,EQ012,P012,2026-10-20,next_7_days,合成周期保养
+plan,EQ005,P005,2026-10-22,next_7_days,合成周期保养
+plan,EQ013,P013,2026-10-22,next_7_days,合成周期保养
+plan,EQ006,P006,2026-10-26,next_7_days,合成周期保养
+plan,EQ014,P014,2026-10-26,next_7_days,合成周期保养
